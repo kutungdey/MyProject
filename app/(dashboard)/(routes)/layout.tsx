@@ -1,8 +1,11 @@
+import { ClerkProvider } from "@clerk/nextjs"
 const DashboardLayout = (props: {
   children: React.ReactNode
 }) => {
   return(
-    <div>{props.children}</div>
+    <ClerkProvider>
+      <div>{props.children}</div>
+    </ClerkProvider>
   )
 }
 
