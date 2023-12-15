@@ -1,9 +1,9 @@
-import { Button } from '@/components/ui/button'
+import { Button } from "@/components/ui/button";
 
-export default function Home() {
+const LandingPage = () => {
   return (
-    <div>
-      <Button>Test button</Button>
-    </div>
-  )
-}
+    <div>Landing Page</div>
+  );
+};
+
+export default LandingPage
